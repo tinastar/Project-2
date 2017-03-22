@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewpoint" content="width=device-width, initial-scale=1">
+			
+		<title>Shaun & Tina: 08.03.18</title>
+				
+		<link rel="stylesheet" href="fonts/font-awesome/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+			
+		<script src="jquery-3.2.0.min.js"></script>
+		<script src="jquery-file.js"></script>
+				 
+	</head>
+	
+	<body>
+		
+		<div class="shaun-tina">
+			<h3>Tina & Shaun</h3>
+			<h2>Are Getting Married</h2>
+		</div>
+      
+		<header>
+			
+			<nav>
+				<article class="navigation-bar">
+					<ul class="navigation">
+						<li><a href="#date-location">Date & Location</a></li>
+                  		<li><a href="#getting-there">Getting There</a></li>
+						<li><a href="#accommodations">Accommodation</a></li>
+						<li><a href="#rsvp">RSVP</a></li>
+					</ul>
+				</article>
+			</nav>
+
+			<h1>#GettingStoked2018</h1>
+				
+			<article class="rsvp-button">
+				<button><a href="#rsvp">RSVP</a></button>
+			</article>
+        
+		</header>
+		
+		<section id="date-location" class="date-location">
+			<h2>Date & Location</h2>
+         	<article class="date-location-text">
+				<p><span class="date-location-bold">Date:</span> August 4th, 2018</p>
+				<p><span class="date-location-bold">Location:</span> Poets Cove Resort on Pender Island</p>
+				      
+		
+				<img class="ceremony-image" src='images/poets-cove-ceremony.jpg'/>  
+			
+		    </article>  
+		</section>
+        
+		<section id="getting-there" class="getting-there">
+
+			<h2>Getting There</h2>
+         	<p>Poets Cove is located on Pender Island, one of B.C.‘s southern Gulf Islands between Vancouver Island and the mainland. Easily accessible by air, boat, or ferry from Vancouver (approximately 3 hours away from Vancouver).</p>
+			<img class="poets-cove-image" src='images/poets-cove-2.jpg' alt="pooets-cove-view"/>
+		
+		</section>
+
+     	<section id="accommodations" class="accommodations">
+			<h2>Accommodation</h2>
+         	<p>Beautiful 1, 2 and 3 bedroom villas and lodges available at Poets Cove Spa & Resort. Ensure to book in advance as accommodation books quickly, especially during long weekends.</p>
+			<img class="lodge-image" src='images/poets-cove-lodge.jpg'/>  
+		</section>
+
+
+ 		<section id="rsvp" class="rsvp-section">
+      		<h2>RSVP</h2>
+         	<p>Please fill out the form below and let us know by <span class="date-location-bold">January 31st, 2018</span> whether you can attend our special day. We hope to see you there!</p>
+		
+			<div class ="rsvp-form">
+
+				<form id="rsvp-form">
+					<p>Name:</p><br><input type="text"></input>
+			
+					<p>Can you make it?</p> 
+					<div class="attending"> 
+						<input type="radio" name="attending" value="yes" id="yes" />Yes
+  				    	<input type="radio" name="attending" value="no" id="no" />No 
+					</div>
+
+					<style>label[for="hide-unless-yes"] {
+     					display: none;
+   						}
+					</style>
+					<div>
+						<label for ="hide-unless-yes">
+							<p>Select Entree:</p><br>
+							<select> 
+      							<option value="roasted-chicken" selected="selected" id="hide-unless-yes">Roasted Chicken</option>
+      							<option value="prime-rib" selected="selected" id="hide-unless-yes">Prime Rib</option>
+	  							<option value="vegetarian"selected="selected" id="hide-unless-yes">Vegetarian</option>
+  			   				</select>
+						</label>
+					</div>
+
+
+  					<div> 
+						<label for ="hide-unless-yes">
+							<p>Questions or Comments?</p><br>
+							<textarea name="message" cols="20" rows="4">...
+							</textarea> 
+						</label>
+					</div>
+		
+					<label for ="hide-unless-yes">
+						<button class="rsvp2">RSVP
+						</button>
+					</label>
+				</form>
+			</div>
+		</section>
+      
+		<footer>
+   			<aside class="footer-left">
+        		<div class="copyright-info">
+					<ul>
+						<li class="copyright-text"><i class= "fa fa-copyright"></i>2018 Tina Star & Shaun Stokes</li>
+						<li>Powered by HTML and CSS.</li>
+					</ul> 
+				</div>
+		
+				<div class="contact-info">
+					<ul>	
+						<li><span class="email-contact">Email: <a href=#>star-stokes@gmail.com</a></span></li>
+					</ul>
+				</div>
+			</aside>
+ 
+			<aside class="footer-right">
+				<div class="social-media-links">
+		  	 		<ul>
+		    		 	<li class="social-list"><a href=#><i class= "fa fa-facebook"></i></a><span class="social-text">&nbsp;Facebook</span></li>
+						<li class="social-list"><a href=#><i class="fa fa-twitter"></i></a><span class="social-text">&nbsp;Twitter</span></li>
+			 			<li class="social-list"><a href=#><i class="fa fa-instagram"></i></a><span class="social-text">&nbsp;Instagram</span></li>  
+					</ul>                       
+				</div>
+			</aside>
+		</footer>
+	</body>
+</html>
