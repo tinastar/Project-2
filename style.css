@@ -24,6 +24,20 @@
 
 }
 
+
+
+@font-face {
+    font-family: 'bubble-gum';
+    src: url('/fonts/bubble-gum/bubblegumsans-regular-webfont.eot');
+    src: url('/fonts/bubble-gum/bubblegumsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/bubble-gum/bubblegumsans-regular-webfont.woff2') format('woff2'),
+         url('/fonts/bubble-gum/bubblegumsans-regular-webfont.woff') format('woff'),
+         url('/fonts/bubble-gum/bubblegumsans-regular-webfont.svg#bubblegum_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*body*/
 
     body {
@@ -45,7 +59,7 @@
 /*header*/
 
     .shaun-tina {
-        font-family: 'meriendabold';
+        font-family: 'bubble-gum';
         background-color: white;
         padding-top: 5%;
         color: #D4AF37;
